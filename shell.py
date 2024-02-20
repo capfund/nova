@@ -2,7 +2,7 @@ from core.novalexer import Lexer
 from core.novaparser import Parser
 
 def runshell():
-    statement = input("nova 0.1 beta > ")
+    statement = input("nova 0.1.4 beta > ")
 
     if statement.lower() in ["quit", "exit"]:
         quit()
