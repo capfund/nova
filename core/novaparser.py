@@ -64,5 +64,9 @@ class Parser:
                 print(self.tokens[idx + 1][1])
             elif self.tokens[idx] == "LEN" and len(self.tokens) > (idx + 1):
                 self.output = len(self.tokens[idx + 1][1])
+            elif self.tokens[idx] == "SQRT" and len(self.tokens) > (idx + 1):
+                self.output = math.sqrt(self.tokens[idx + 1] if isinstance(self.tokens[idx + 1], int) else "NaN")
+            elif self.tokens[idx] == "CUBED" and len(self.tokens) > (idx + 1):
+                self.output = math.pow(self.tokens[idx + 1], (1 / 3))
 
         return self.output
