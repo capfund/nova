@@ -29,3 +29,9 @@ A float constant with the value of the mathematical constant "pi".
 
 LEN (string):
 Prints the length of a string value
+
+SQRT (int):
+Square root of an integer value.
+
+CUBED (int):
+Returns cubed root of an integer value.
