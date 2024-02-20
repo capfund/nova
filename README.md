@@ -1,0 +1,22 @@
+# What is Nova?
+Nova is an interpreted esoteric programming language! It is not robust as of now and has only simple I/O and arithmetic functionality.
+
+# Releases
+
+0.1:
+Support for basic arithmetics
+
+0.1.1:
+Support for the mathematical constant "pi" (π)
+
+0.1.2:
+Added PRINT statement
+
+# Documentation
+#### Will be changed over time.
+
+PRINT (string):
+Prints/outputs a certain string value to the console.
+
+PI (constant):
+A float constant with the value of the mathematical constant "pi".
