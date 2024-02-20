@@ -15,6 +15,9 @@ Added PRINT statement
 0.1.3:
 Added LEN function
 
+0.1.4:
+Added SQRT and CUBED mathematical function
+
 # Documentation
 #### Will be changed over time.
 
