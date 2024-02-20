@@ -68,6 +68,10 @@ class Lexer:
             elif current_char == "P" and self.line[self.pos + 1] == "R" and self.line[self.pos + 2] == "I" and self.line[self.pos + 3] == "N" and self.line[self.pos + 4] == "T":
                 toks.append("PRINT")
                 self.pos += len("PRINT") - 1
+            elif current_char == "L" and self.line[self.pos + 1] == "E" and self.line[self.pos + 2] == "N":
+                toks.append("LEN")
+                self.pos += len("LEN") - 1
+
             self.advance()
 
         return toks

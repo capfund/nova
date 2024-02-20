@@ -62,5 +62,7 @@ class Parser:
         for idx in range(len(self.tokens)):
             if self.tokens[idx] == "PRINT" and len(self.tokens) > (idx + 1):
                 print(self.tokens[idx + 1][1])
+            elif self.tokens[idx] == "LEN" and len(self.tokens) > (idx + 1):
+                self.output = len(self.tokens[idx + 1][1])
 
         return self.output

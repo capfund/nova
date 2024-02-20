@@ -12,6 +12,9 @@ Support for the mathematical constant "pi" (π)
 0.1.2:
 Added PRINT statement
 
+0.1.3:
+Added LEN function
+
 # Documentation
 #### Will be changed over time.
 
@@ -20,3 +23,6 @@ Prints/outputs a certain string value to the console.
 
 PI (constant):
 A float constant with the value of the mathematical constant "pi".
+
+LEN (string):
+Prints the length of a string value
