@@ -71,6 +71,12 @@ class Lexer:
             elif current_char == "L" and self.line[self.pos + 1] == "E" and self.line[self.pos + 2] == "N":
                 toks.append("LEN")
                 self.pos += len("LEN") - 1
+            elif current_char == "S" and self.line[self.pos + 1] == "Q" and self.line[self.pos + 2] == "R" and self.line[self.pos + 3] == "T":
+                toks.append("SQRT")
+                self.pos += len("SQRT") - 1
+            elif current_char == "C" and self.line[self.pos + 1] == "U" and self.line[self.pos + 2] == "B" and self.line[self.pos + 3] == "E" and self.line[self.pos + 4] == "D":
+                toks.append("CUBED")
+                self.pos += len("CUBED") - 1
 
             self.advance()
 
