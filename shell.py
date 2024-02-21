@@ -1,5 +1,5 @@
 from core.novalexer import Lexer
-from core.novaparser import Parser
+from core.novainterpreter import Interpreter
 
 def runshell():
     statement = input("nova 0.1.4 beta > ")
