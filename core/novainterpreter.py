@@ -1,7 +1,7 @@
 import math
 from .exceptionbase import *
 
-class Parser:
+class Interpreter:
     def __init__(self, tokens: list):
         self.tokens = tokens
         self.output = None
