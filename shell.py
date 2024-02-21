@@ -10,7 +10,7 @@ def runshell():
     lexer = Lexer(statement)
     tokens = lexer.lex()
     
-    parser = Parser(tokens=tokens)
+    parser = Interpreter(tokens=tokens)
     result = parser.parse()
 
     if result:
